@@ -1,0 +1,6 @@
+CompileFlags:
+  CompilationDatabase: build
+  Add:
+    - -Wall
+    - -Werror
+    - -Wno-reserved-module-identifier

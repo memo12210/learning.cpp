@@ -1,0 +1,30 @@
+BasedOnStyle: LLVM
+
+# Indentation
+IndentWidth: 2
+TabWidth: 2
+UseTab: Always
+NamespaceIndentation: All
+
+# Access modifiers
+IndentAccessModifiers: true
+AccessModifierOffset: 0
+EmptyLineAfterAccessModifier: Never
+
+# Line length
+ColumnLimit: 100
+
+# Pointers and references
+PointerAlignment: Left
+ReferenceAlignment: Left
+
+# Short statements
+AllowShortLoopsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+
+# Braced initialization
+Cpp11BracedListStyle: false
+SpaceBeforeCpp11BracedList: true
+
+# Templates
+AlwaysBreakTemplateDeclarations: Yes

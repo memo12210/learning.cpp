@@ -1,0 +1,19 @@
+{
+  "clangd.arguments": [
+    "--compile-commands-dir=${workspaceFolder}/build",
+    "--background-index",
+    "--experimental-modules-support",
+    "--background-index",
+    "--header-insertion=iwyu",
+    "--completion-style=detailed",
+    "--clang-tidy"
+  ],
+  "clangd.path": "clangd",
+  "cmake.configureOnOpen": true,
+  "cmake.generator": "Ninja",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "files.associations": {
+    "*.cppm": "cpp",
+    "*.ixx": "cpp"
+  }
+}
